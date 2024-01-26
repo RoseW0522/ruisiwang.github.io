@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en-US">
+
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <title>Ruisi's Personal Website</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <header>
+      <h1>Ruisi Wang</h1>
+    </header>
+
+    <section class="intro">
+      <p> I'm a 4th year student at Northeastern studying Data Science and minor in Mathematics. I've completed three internships: two of them is about data analysis and the remaining one is focusing on web development of test platform automation. Since 2023 November, I started academic research on quanting.</p>
+    </section>
+
+    <section class="contents">
+      <h2>To-Do List For Website</h2>
+      <ul>
+        <li><input type="checkbox" id="item1"><label for="item1">Academic Projects: <a href="https://github.com/RoseW0522">GitHub</a></label></li>
+        <li><input type="checkbox" id="item2"><label for="item2">Internships</label></li>
+        <li><input type="checkbox" id="item3"><label for="item3">Academic Researches</label></li>
+        <li><input type="checkbox" id="item4"><label for="item4">Professional Skills</label></li>
+        <li><input type="checkbox" id="item5"><label for="item5">Other Interests' works, like Chinese caligraphy artworks writen by myself.</label></li>
+      </ul>
+    </section>
+    
+    <button id="showMBTIButton">click to see my MBTI</button>
+    <img id="myImage1" src="images/MBTI-INTJ.png" alt="Your Image">
+
+    <button id="showCcButton">click to see my favorite character</button>
+    <img id="myImage2" src="images/JesseXia.png" alt="Your Image">
+
+    <hr>
+
+    <div id="commentSection">
+      <h2>Comments From Visitors</h2>
+      <div id="commentsList"></div>
+      <textarea id="commentInput" placeholder="Welcome to leave your name for visiting!"></textarea>
+      <button id="submitComment">Submit</button>
+    </div>
+
+    <script src="scripts/main.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,80 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(209, 209, 255);
+    color: rgb(0, 0, 0);
+}
+
+header {
+    background-color: rgb(115, 69, 132);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+}
+
+.intro {
+    margin: 60px auto;
+}
+
+.intro p {
+    margin: 30px;
+    font-size: 24px;
+}
+
+.contents {
+    margin: 30px;
+}
+
+.contents h2 {
+    color: rgb(115, 69, 132);
+}
+
+.contents ul {
+    list-style-type: none;
+}
+
+.contents li {
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#showMBTIButton {
+    margin: 30px;
+}
+
+#myImage1 {
+    max-width: 300px;
+    max-height: 400px;
+    height: auto;
+    margin: 30px;
+    display: none;
+}
+
+#showCcButton {
+    margin: 30px;
+}
+
+#myImage2 {
+    max-width: 300px;
+    max-height: 400px;
+    height: auto;
+    margin: 30px;
+    display: none;
+}
+
+#commentSection {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 30px;
+}
+
+#commentsList {
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 20px;
+}
